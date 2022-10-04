@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, #fbc8d5, #9896f0);
+}
+
+.hero {
+  max-width: 30rem;
+  padding: 5rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(to left, #f9e7fe, #dafcfc);
+}
+#screen {
+  padding: 1.2rem;
+  width: 100%;
+  display: inline-block;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  color: #212529;
+  font-weight: 650;
+  font-size: 1.2rem;
+  font-family: "Figtree", sans-serif;
+}
+
+.btn-section {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.btn {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 5rem;
+  border: none;
+  font-family: "Figtree", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 650;
+  background-color: #96f2d7;
+  color: #343a40;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0c8599;
+  color: white;
+}
+
+/* Function buttons styling */
+.btn-add {
+  background-color: #96f2d7;
+}
+.btn-sub {
+  background-color: #da77f2;
+}
+.btn-div {
+  background-color: #74c0fc;
+}
+.btn-mul {
+  background-color: #38d9a9;
+}
+.btn-percent {
+  background-color: #ffd43b;
+}
+.btn-equalto {
+  background-color: #82c91e;
+}
+.btn-clear {
+  background-color: #f783ac;
+}
+.btn-back {
+  background-color: #ffc078;
+}
